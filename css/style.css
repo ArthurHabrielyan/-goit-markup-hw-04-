@@ -176,8 +176,16 @@ img {
 /* Studio main */
 
 .hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bcg_hero.jpg);
   background-color: #2f303a;
   color: #ffffff;
+
+  max-width: 1600px;
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
