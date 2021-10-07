@@ -99,16 +99,21 @@ img {
 }
 
 .header_item {
-  position: relative;
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
+.link {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .link_style::after {
   position: absolute;
   content: '';
-  bottom: -22px;
+  bottom: 0;
   left: 0;
   background-color: #2196f3;
   width: 100%;
@@ -639,7 +644,6 @@ address {
 
 .img_item_portfolio {
   min-width: 370;
-  margin-bottom: 20px;
 }
 
 .text_item {
@@ -649,9 +653,6 @@ address {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .portfolio_title {
@@ -660,6 +661,8 @@ address {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
+}
+
+.bottom_wrapper {
+  padding: 20px 24px;
 }
